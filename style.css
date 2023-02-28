@@ -1,0 +1,82 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    background-image: url('images/birthday.svg');
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg{
+   
+    margin: 0;
+    font-family: 'Original Surfer', cursive;
+}
+
+h1{
+    text-align: center;
+    margin-top: 12rem;
+}
+
+.container{
+    margin: auto;
+    width: 50vw;
+    height: 25vw;
+    margin-top: 2vw;
+}
+
+input{
+    display: block;
+    margin: auto;
+    padding: 0.5rem;
+    font-size: 28px;
+    color: red;
+    border: 5px solid red;
+}
+
+#show-btn{
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 7rem;
+    background-color:  yellow;;
+    color: red;
+    border: 5px solid red;
+    border-radius: 1rem;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#result{
+  padding: 1rem;
+  font-size: 23px;
+  font-weight:600;
+  border: 7px solid red;
+  border-radius: 1rem;
+  height: auto;
+  text-align: center;
+  display: none;
+}
+
+footer{
+    padding-top: 2rem;
+}
+footer p{
+    text-align: center;
+}
+.footer-ul{
+    list-style: none;
+    display:block;
+    text-align: center;
+    padding-left: 0px;
+  }
+
+.footer-li{
+    display: inline;
+}
+
+.footer-link{
+    margin: auto;
+}
+
